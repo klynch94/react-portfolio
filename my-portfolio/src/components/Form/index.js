@@ -21,7 +21,8 @@ export default function () {
     }
     return (
 
-        <form className="container mt-5 shadow align-items-center" style={{width: "40%", backgroundColor: "white", height: "50vh"}}>
+        
+        <form className="container mt-5 shadow align-items-center col-sm-7" style={{backgroundColor: "white", height: "50vh"}}>
             <div className="row">
                 <div className="col-md-12">
                     <label className="mt-5">Subject</label>
