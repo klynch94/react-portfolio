@@ -6,7 +6,7 @@ export default function () {
             {/* <!-- My name (aka Brand Image) --> */}
             <div>
                 <a className="navbarLogo" href="/">
-                    <img id="logoImg" src="/images/freeLogo.svg" />
+                    <img id="logoImg" src="/assets/freeLogo.svg" />
                 </a>
             </div>
             <div>

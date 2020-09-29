@@ -11,7 +11,7 @@ export default function () {
                         </div>
                         <div className="card-body">
                             <p className="about-me-text">
-                                <img src="./images/St.Andrews.Kieran.jpg" alt="Kieran Lynch" id="about-me-image" className="img-fluid"/>
+                                <img src="./assets/St.Andrews.Kieran.jpg" alt="Kieran Lynch" id="about-me-image" className="img-fluid"/>
                                 Howdy! My name is Kieran Lynch and I am currently based out of Chicago, Illinois. My professional experience includes bringing new products to market in the travel technology industry and driving software adoption. As of mid-2020, I am currently enrolled in a Full Stack Development program at Northwestern Univsersity and learning how to build my own full stack applications. Some of my interests include enjoying a good cup of tea, giving belly rubs to my Bernedoodle puppy - Murphy, soccer, and traveling.
                             </p>
                             <p>
