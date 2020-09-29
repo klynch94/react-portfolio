@@ -115,6 +115,10 @@ a:hover {
     border: none;
 }
 
+.socialLogo {
+    font-size: 40px;
+}
+
 /* Footer styling - taken from CodePen - https://codepen.io/1wdtv/pen/ojKxaE */
 #lab_social_icon_footer {
     padding: 40px 0;

@@ -5,7 +5,7 @@ export default function() {
         <section className="container contactInfo col-md-8">
             <div className="card-deck">
                 <div className="card contactCard">
-                    <a href="https://www.linkedin.com/in/kieran-lynch-516525145" target="_blank">
+                    <a rel="noopener noreferrer" href="https://www.linkedin.com/in/kieran-lynch-516525145" target="_blank">
                         <i id="liSquare" className="fa fa-linkedin" aria-hidden="true"></i>
                         <div className="card-body">
                             <p className="card-title">LinkedIn</p>
@@ -13,7 +13,7 @@ export default function() {
                     </a>
                 </div>
                 <div className="card contactCard">
-                    <a href="https://github.com/klynch94" target="_blank">
+                    <a rel="noopener noreferrer" href="https://github.com/klynch94" target="_blank">
                         <i id="GitHub"className="fa fa-github" aria-hidden="true"></i>
                         <div className="card-body">
                             <p className="card-title">GitHub</p>

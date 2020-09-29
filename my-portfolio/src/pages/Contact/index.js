@@ -7,7 +7,7 @@ export default function() {
     return (
         <div>
         <Form/>
-        <Social/> 
+        <Social/>
         </div>
     )
 }
