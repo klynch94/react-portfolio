@@ -2,7 +2,7 @@ import React from "react";
 
 export default function () {
     return (
-        <section id="portfolioContent" class="container col-md-8">
+        <section id="portfolioContent" className="container col-md-8">
         <div className="row row-cols-1 row-cols-md-2">
             <div className="col mb-4">
               <div className="card h-100">
