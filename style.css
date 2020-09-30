@@ -1,0 +1,208 @@
+/* Added gradient background to body and extended so the footer is not covering content */
+body {
+    background-color: #d4cbd4;
+    background-image: linear-gradient(0deg, #d4cbd4 0%, #97D9E1 100%);
+    min-height: 400px;
+    /* margin-bottom: 100px; */
+    clear: both;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Changing color of Navbar and removed padding from bootstrap styling to make it more like the picture providing in hw2 */
+nav {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
+    padding: 0;
+    text-align: center;
+}
+
+.navbarLogo {
+    padding: 20px;
+    border-radius: .1rem;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#logoImg {
+    border: solid;
+    border-color: grey;
+    margin: 10px; 
+    width: 150px;
+}
+
+/* Chaning color of Navbar links */
+.nav-link {
+    color: grey;
+}
+
+.navbarLinks {
+    flex-direction: row;
+    list-style-type: none;
+    display: inline-flex;
+    padding: 0px;
+    margin-top: 5px;
+}
+
+/* Creating a red line under the nav bar item when hovering over it */
+.navbarLinks a:hover {
+    border-bottom: 3px solid #b43327;
+}
+
+/* Lines in between Navbar links */
+li {
+    /* border-right: solid .5px rgb(218, 212, 212); */
+    line-height: 100%;
+    font-weight: 200;
+}
+
+/* Removing line at the end of the Navbar links */
+li:last-child {
+    border-right: none;
+}
+
+/* Styling for About Me page */
+/* Styling image */
+.card-header {
+    font-size: larger;
+    font-weight: 500;
+    color: grey;
+    font-family: 'Crete Round', serif;
+}
+
+#about-me-image {
+    float: left;
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 25px;
+    margin-bottom: 10px;
+}
+
+/* Styling Portfolio Page */
+.card-img-top {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+
+#portfolioContent {
+    margin-top: 15px;
+}
+
+a {
+    color: #212529;
+}
+
+a:hover {
+    opacity: 70%;
+}
+
+/* styling contact page */
+.contactInfo {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#email, #liSquare, #GitHub, #resume {
+    font-size: 75px;;
+}
+
+.contactCard {
+    padding: 20px;
+    background-color: transparent;
+    border: none;
+}
+
+.socialLogo {
+    font-size: 40px;
+}
+
+/* Footer styling - taken from CodePen - https://codepen.io/1wdtv/pen/ojKxaE */
+#lab_social_icon_footer {
+    padding: 40px 0;
+    background-color: #dedede;
+}
+  
+#lab_social_icon_footer a {
+    color: #333;
+}
+  
+#lab_social_icon_footer .social:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+  
+#lab_social_icon_footer .social {
+    -webkit-transform: scale(0.8);
+    /* Browser Variations: */
+    -moz-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+}
+  
+.fa-linkedin-square:before, .fa-envelope-square:before {
+    color: #b43327;
+}
+
+.footer {
+    padding: 10px;
+}
+
+@media (max-width: 991px) {
+    .navbar-nav {
+        flex-direction: row;
+    }
+    ul li {
+        padding: 0px 10px 0px 10px;
+        line-height: 5px;
+    }
+    .navbar-brand {
+        margin-left: 1rem;
+    }
+    .container {
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 768px) {
+    .col-sm-8 {
+        flex: 100%;
+        max-width: 100%;
+    }
+    .container,
+    .container-sm {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 640px) {
+    .navbar {
+        flex-direction: column;
+    }
+    .navbar-brand {
+        width: 100%;
+    }
+    .navbar-nav {
+        padding: 8px;
+    }
+    .ml-auto {
+        margin: auto !important
+    }
+    ul li {
+        line-height: 100%;
+    }
+    .navbar-brand {
+        margin: 0;
+    }
+    .navbar .container {
+        max-width: 100%;
+    }
+    #about-me-image {
+        width: 100%;
+    }
+}
